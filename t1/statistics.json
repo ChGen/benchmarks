@@ -1,34 +1,34 @@
 {
   "Total" : {
     "transaction" : "Total",
-    "sampleCount" : 14061,
+    "sampleCount" : 14007,
     "errorCount" : 0,
     "errorPct" : 0.0,
-    "meanResTime" : 11.645544413626338,
+    "meanResTime" : 11.68701363603914,
     "medianResTime" : 7.0,
     "minResTime" : 4.0,
-    "maxResTime" : 70.0,
-    "pct1ResTime" : 43.0,
-    "pct2ResTime" : 50.0,
+    "maxResTime" : 91.0,
+    "pct1ResTime" : 44.0,
+    "pct2ResTime" : 51.0,
     "pct3ResTime" : 58.0,
-    "throughput" : 469.62359306636387,
-    "receivedKBytesPerSec" : 26.141157035920646,
-    "sentKBytesPerSec" : 7727.135762833573
+    "throughput" : 467.6794657762938,
+    "receivedKBytesPerSec" : 26.032939012938233,
+    "sentKBytesPerSec" : 7703.750815160684
   },
   "Put asset" : {
     "transaction" : "Put asset",
-    "sampleCount" : 14061,
+    "sampleCount" : 14007,
     "errorCount" : 0,
     "errorPct" : 0.0,
-    "meanResTime" : 11.645544413626338,
+    "meanResTime" : 11.68701363603914,
     "medianResTime" : 7.0,
     "minResTime" : 4.0,
-    "maxResTime" : 70.0,
-    "pct1ResTime" : 43.0,
-    "pct2ResTime" : 50.0,
+    "maxResTime" : 91.0,
+    "pct1ResTime" : 44.0,
+    "pct2ResTime" : 51.0,
     "pct3ResTime" : 58.0,
-    "throughput" : 469.62359306636387,
-    "receivedKBytesPerSec" : 26.141157035920646,
-    "sentKBytesPerSec" : 7727.135762833573
+    "throughput" : 467.6794657762938,
+    "receivedKBytesPerSec" : 26.032939012938233,
+    "sentKBytesPerSec" : 7703.750815160684
   }
 }
