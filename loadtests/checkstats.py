@@ -48,6 +48,9 @@ if __name__ == '__main__':
                 mrtB = float(jsonB['Total']['meanResTime'])
                 throughputDiff = abs(1.0 - trB / trA)
                 meanResTimeDiff = abs(1.0 - mrtB / mrtA)
+                print(test, pathA, pathB)
+                print(test, trA, mrtA)
+                print(test, trB, mrtB)
                 print(test, throughputDiff, meanResTimeDiff)
                 if throughputDiff > limit or meanResTimeDiff > limit:
                     print(f"Error: result difference is more than a limit {limit}!")
