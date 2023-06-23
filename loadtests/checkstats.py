@@ -46,8 +46,8 @@ if __name__ == '__main__':
                 mrtA = float(jsonA['Total']['meanResTime'])
                 trB = float(jsonB['Total']['throughput'])
                 mrtB = float(jsonB['Total']['meanResTime'])
-                throughputDiff = abs(1.0 - trB / trA)
-                meanResTimeDiff = abs(1.0 - mrtB / mrtA)
+                throughputDiff = abs(1.0 - trB / trA) * 100.0
+                meanResTimeDiff = abs(1.0 - mrtB / mrtA) * 100.0
                 print(test, pathA, pathB)
                 print(test, trA, mrtA)
                 print(test, trB, mrtB)
